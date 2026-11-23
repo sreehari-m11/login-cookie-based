@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form method="POST" id="logoutForm">
+        <div
+            class="flex flex-col gap-10 items-center justify-center mx-auto min-w-lg max-w-xl bg-gray-200 rounded-xl p-10">
+            <p class="text-4xl font-bold">DASHBOARD</p>
+            <div class="flex flex-col gap-4">
+                <p class="text-2xl text-green-500 font-bold" id="himessage"></p>
+            </div>
+            <button type="submit"
+                class="bg-emerald-700 px-4 py-2 text-white hover:cursor-pointer hover:bg-emerald-800">Logout</button>
+            <p id="message" class="text-xl text-red-500"></p>
+        </div>
+    </form>
+
+    <script src="./dashboard.js"></script>
+</body>
+
+</html>
